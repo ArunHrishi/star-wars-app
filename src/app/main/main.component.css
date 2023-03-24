@@ -1,0 +1,100 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+.main{
+  width: 100%;
+  /* height: 750px; */
+  /* background-image: url('https://wallpaper.dog/large/17271787.jpg'); */
+  background-image: url('https://wallpapercave.com/wp/wp9267865.jpg');
+  /* background-color: black; */
+  background-size: cover;
+  /* padding-bottom: 55px; */
+}
+.translucent{
+  width: 100%;
+  height: inherit;
+  background-color: rgb(0, 0, 0,0.3);
+  padding-bottom: 55px;
+}
+header p mat-toolbar{
+  background-color: rgb(0, 0, 0,0.0);
+}
+.logo{
+  font-family: 'Rubik Iso', cursive;
+  font-size: 27px;
+}
+.content{
+  width: 100%;
+  /* height: 100%; */
+  /* background-color: rgb(0, 0, 0,0.3); */
+  /* padding-bottom: 55px; */
+}
+.time{
+  margin: auto;
+}
+.tagline{
+  font-size: 30px;
+  font-weight: bold;
+  font-family: 'roboto', sans-serif;
+  line-height: normal;
+}
+.tagline1{
+  font-size: 21px;
+  font-family: 'Kanit', sans-serif;
+  font-weight: 500;
+  line-height: normal;
+}
+.row img{
+  width: 90%;
+}
+.tagline2{
+  font-size: 24px;
+  font-family: 'Ubuntu', sans-serif;
+  line-height: normal;
+}
+.row a{
+  font-family: 'Fira Sans', sans-serif;
+  font-weight: 900;
+}
+.light{
+  margin-right: 10px;
+}
+.dark{
+  margin-left: 10px;
+}
+/* media query */
+@media screen and ( max-width: 420px) {
+  .main{
+    /* background-size: auto; */
+  }
+  .tagline{
+    text-align: center;
+  }
+  .tagline1{
+    text-align: center;
+  }
+  .tagline2{
+    text-align: center;
+  }
+  .light{
+    margin-right: 0px;
+    margin-bottom: 20px;
+  }
+  .dark{
+    margin-left: 0px;
+    /* margin-top: 10px; */
+  }
+  .btn1,.btn2{
+    width: 100%;
+    display: block;
+  }
+  .buttons{
+    text-align: center;
+    /* padding-bottom: 20px; */
+  }
+  .translucent{
+    padding-bottom: 30px;
+  }
+}
